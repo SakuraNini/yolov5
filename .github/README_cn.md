@@ -24,8 +24,9 @@
   <br>
    <p>
    YOLOv5🚀是一个在COCO数据集上预训练的物体检测架构和模型系列，它代表了<a href="https://ultralytics.com">Ultralytics</a>对未来视觉AI方法的公开研究，其中包含了在数千小时的研究和开发中所获得的经验和最佳实践。
-
    </p>
+    <br>
+  <details open>
          <p>
      首先: test.py 最近被重命名为 val.py！
     <a 如下3 个文件是为不同目的而设计的，并使用具有不同设置的不同数据加载器。></a>
@@ -34,6 +35,7 @@
      val.py 旨在获得验证数据集上的最佳 mAP， dataloader: LoadImagesAndLabels()：设计用于加载训练、验证、测试数据集图像和标签。增强能力但被禁用。
      detect.py 旨在真实世界中获得最佳的推理结果。dataloaders(多个)：设计用于加载多种类型的媒体（images, videos, globs, directories, streams）
         </p>
+    </details>
 
   <div align="center">
     <a href="https://github.com/ultralytics" style="text-decoration:none;">
