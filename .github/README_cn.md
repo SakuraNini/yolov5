@@ -61,16 +61,17 @@
 <summary>安装</summary>
 
 在[**Python>=3.7.0**](https://www.python.org/) 的环境中克隆版本仓并安装 [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt)，包括[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/)。
+如果在Windows上运行，则window需要下载git（https://git-scm.com/download/win）安装。
 ```bash
-git clone https://github.com/ultralytics/yolov5  # 克隆
+git clone https://github.com/ultralytics/yolov5  # 克隆到项目目录内。
 cd yolov5
-pip install -r requirements.txt  # 安装
+pip install -r requirements.txt  # 在ropository的目录里安装，否则找不到Requirements.txt文件
 ```
 
 </details>
 
 <details open>
-<summary>推理</summary>
+<summary>推理 Inference '把训练好的模型拿出来遛一遛的过程，称为推理（Inference）'</summary>
 
 YOLOv5 [PyTorch Hub](https://github.com/ultralytics/yolov5/issues/36) 推理. [模型](https://github.com/ultralytics/yolov5/tree/master/models) 自动从最新YOLOv5 [版本](https://github.com/ultralytics/yolov5/releases)下载。
 
