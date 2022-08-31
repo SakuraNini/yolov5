@@ -64,11 +64,12 @@ See the [YOLOv5 Docs](https://docs.ultralytics.com) for full documentation on tr
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/) environment, including
 [**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
+  Download and install Git for Windows（https://git-scm.com/download/win）. Once installed, Git is available from the command prompt or PowerShell. 
 
 ```bash
 git clone https://github.com/ultralytics/yolov5  # clone
 cd yolov5
-pip install -r requirements.txt  # install
+pip install -r requirements.txt  # To the path of Yolov5, then One can also run this install by Cuda.
 ```
 
 </details>
